@@ -18,7 +18,7 @@ jobs:
         run: echo Hello, test!
 
   build:
-    runs-on: ubntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: build
         run: echo Hello, build!
