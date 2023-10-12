@@ -15,7 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: test
-        run: echo Hello, test!
+        run: |
+          echo Hello, test!
+          printenv
 
   build:
     runs-on: ubuntu-latest
